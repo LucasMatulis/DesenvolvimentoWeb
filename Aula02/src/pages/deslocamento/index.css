@@ -1,0 +1,76 @@
+body {
+    height: 2000px;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid #000;
+    height: 600px;
+    margin: 30px;
+
+    position: relative;
+}
+
+.btn {
+    padding: 20px 30px;
+    font: 700 30px 'Work Sans';
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    margin: 10px;
+
+    z-index: 1;
+}
+
+.btn:hover {
+    background-color: rgb(114, 34, 189);
+}
+.btn:active {
+    background-color: rgb(148, 53, 237);
+}
+
+.ok {
+    background-color: cornflowerblue;
+    
+    position: relative;
+    left: 50px;
+    z-index: 2;
+}
+
+.flutuante {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+
+    border-radius: 300px;
+}
+
+.whatsapp {
+    background-color: rgb(25, 202, 143);
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+.stick {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    position: relative;
+}
+
+.titulo {
+    position: sticky;
+    top: 20px;
+}
+
