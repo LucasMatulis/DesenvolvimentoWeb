@@ -47,17 +47,25 @@ body {
   top: 200px;
   gap: 50px;
 }
-.elementos-div div div h1 {
+.elementos-div .background {
+  background-position: 100px 5px;
+  position: absolute;
+  top: -182px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+div div h1 {
   font: 60px discordfont1;
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.elementos-div div div p {
+div div p {
   font: 20px discordfont2;
   text-align: center;
   color: rgb(255, 255, 255);
 }
-.elementos-div div div input {
+div div input {
   font: 25px discordfont2;
   background-color: white;
   border-radius: 25px;
