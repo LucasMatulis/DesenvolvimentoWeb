@@ -1,4 +1,5 @@
 body{
+    background-image: url("/public/assets/images/fundo_discord_faixa1.svg");
     background-repeat: no-repeat;
     background-color: rgb(64, 78, 237);
     display: flex;
@@ -13,7 +14,7 @@ body{
     justify-content: space-around;
     max-width: 1280px;
     width: 100%;
-    padding: 10px;
+    padding: 25px;
     
 
     div{
@@ -34,11 +35,22 @@ body{
     
         input {
         border-radius: 20px;
-        
         border-style: hidden;
         position: relative;
+        transition: box-shadow 0.5s;
         }
-}
+
+        .btn-login{
+
+
+        &:hover{
+
+            color: blue;
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432) ;
+        }
+        }
+ }
+    
 
 
 .elementos-div{
