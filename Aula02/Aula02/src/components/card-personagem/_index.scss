@@ -1,0 +1,49 @@
+
+
+.card-personagem {
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    transition: .3s;
+    box-shadow: 0px 0px 20px 0px #00000054;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    img {
+        width: 100%;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+
+    .info {
+        padding: 20px;
+
+        h1 {
+            font: $fs-1;
+            line-height: 22px;
+            color: $cor-titulo;
+        }
+
+        p {
+            font: $fs-2;
+            line-height: 22px;
+            color: #4e4a4a;
+            
+            height: 200px;
+            overflow: auto;
+
+            &::-webkit-scrollbar {
+                width: 8px;
+            }
+            &::-webkit-scrollbar-track {
+                background-color: transparent;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #b1b1b1;
+                border-radius: 20px;
+            }
+        }
+    }
+}

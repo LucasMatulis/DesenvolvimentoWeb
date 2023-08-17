@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+main nav {
+  display: flex;
+  gap: 20px;
+}
+main nav a {
+  color: #fff;
+  background-color: #9446dd;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 3px;
+}/*# sourceMappingURL=index.css.map */
