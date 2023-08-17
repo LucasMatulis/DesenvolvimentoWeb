@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.faixa-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    gap: 120px;
+    padding: 110px 0px;
+}
+
+.f2-imagem {
+
+}
+
+.f2-conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.f2-conteudo > h1 {
+    font: 48px discordfont5;
+    line-height: 58px;
+    margin: 0px;
+}
+
+.f2-conteudo > p {
+    font: 20px discordfont2;
+    line-height: 34px;
+    color: #6c6e6f;
+}
+
