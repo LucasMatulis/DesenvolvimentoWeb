@@ -1,60 +1,60 @@
 body {
-    background-image: url("/public/assets/images/fundo_discord_faixa1.svg");
-    background-repeat: no-repeat;
-    background-color: rgb(64, 78, 237);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  
-  .cabecalho-div {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1280px;
-    width: 100%;
-    padding: 25px;
-  }
-  .cabecalho-div div a {
-    font: 15px discordfont2;
-    color: rgb(255, 255, 255);
-    margin: 10px;
-    padding: 10px;
-    position: relative;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  .cabecalho-div div a:hover {
-    text-decoration: underline;
-  }
-  .cabecalho-div input {
-    border-radius: 20px;
-    border-style: hidden;
-    position: relative;
-  }
-  
-  .elementos-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 200px;
-    gap: 50px;
-  }
-  .elementos-div div div h1 {
-    font: 60px discordfont1;
-    text-align: center;
-    color: rgb(255, 255, 255);
-  }
-  .elementos-div div div p {
-    font: 20px discordfont2;
-    text-align: center;
-    color: rgb(255, 255, 255);
-  }
-  .elementos-div div div input {
-    font: 25px discordfont2;
-    background-color: white;
-    border-radius: 25px;
-    border-style: hidden;
-    padding-inline: 15px;
-  }/*# sourceMappingURL=index.css.map */
+  background-repeat: no-repeat;
+  background-color: rgb(64, 78, 237);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+}
+
+.cabecalho-div {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1280px;
+  width: 100%;
+  padding: 10px;
+}
+.cabecalho-div div a {
+  font: 15px discordfont2;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+}
+.cabecalho-div div a:hover {
+  text-decoration: underline;
+}
+.cabecalho-div input {
+  border-radius: 20px;
+  border-style: hidden;
+  position: relative;
+}
+
+.elementos-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+  gap: 50px;
+}
+.elementos-div div div h1 {
+  font: 60px discordfont1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.elementos-div div div p {
+  font: 20px discordfont2;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.elementos-div div div input {
+  font: 25px discordfont2;
+  background-color: white;
+  border-radius: 25px;
+  border-style: hidden;
+  padding-inline: 15px;
+}/*# sourceMappingURL=index.css.map */
