@@ -1,5 +1,15 @@
+@font-face {
+  font-family: discordfont2;
+  src: url(/ADO01/public/assets/fonts/discordfont2.woff2);
+}
+@font-face {
+  font-family: discordfont1;
+  src: url(/ADO01/public/assets/fonts/discordfont1.woff2);
+}
 body {
-  background-image: url("/public/assets/images/fundo_discord_faixa1.svg");
+  background-image: url("/ADO01/public/assets/images/discord-background.svg");
+  background-position-y: 70px;
+  background-position-x: center;
   background-repeat: no-repeat;
   background-color: rgb(64, 78, 237);
   display: flex;
@@ -17,10 +27,9 @@ body {
   padding: 25px;
 }
 .cabecalho-div div a {
-  font: 15px discordfont2;
+  font: 20px discordfont2;
   color: rgb(255, 255, 255);
-  margin: 10px;
-  padding: 10px;
+  padding: 20px;
   position: relative;
   text-decoration: none;
   font-weight: 600;
@@ -34,41 +43,58 @@ body {
   position: relative;
   transition: box-shadow 0.5s;
 }
-.cabecalho-div .btn-login:hover {
+.cabecalho-div .login:hover {
   color: blue;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432);
 }
 
 .elementos-div {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   position: relative;
-  top: 200px;
-  gap: 50px;
+  top: 260px;
 }
-.elementos-div .background {
-  background-position: 100px 5px;
-  position: absolute;
-  top: -182px;
-  overflow-clip-margin: content-box;
-  overflow: clip;
+.elementos-div div {
+  position: relative;
+  bottom: 60px;
+  left: -10px;
 }
-
-div div h1 {
+.elementos-div div h1 {
   font: 60px discordfont1;
   text-align: center;
   color: rgb(255, 255, 255);
+  line-height: 55px;
 }
-div div p {
+.elementos-div div p {
   font: 20px discordfont2;
+  width: 800px;
   text-align: center;
+  line-height: 35px;
   color: rgb(255, 255, 255);
 }
-div div input {
-  font: 25px discordfont2;
+.elementos-div div div {
+  justify-content: space-around;
+}
+.elementos-div div div input {
+  font: 20px discordfont2;
   background-color: white;
   border-radius: 25px;
   border-style: hidden;
-  padding-inline: 15px;
+  padding-inline: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: box-shadow 0.5s;
+}
+.elementos-div div div input:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432);
+}
+.elementos-div div div .abrir {
+  background-color: black;
+  color: white;
+}
+.elementos-div div div .abrir:hover {
+  background-color: rgb(37, 37, 37);
+}
+.elementos-div div div .windows:hover {
+  color: blue;
 }/*# sourceMappingURL=index.css.map */

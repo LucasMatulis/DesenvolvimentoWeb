@@ -1,5 +1,18 @@
+@font-face {
+    font-family: discordfont2;
+    src: url(/ADO01/public/assets/fonts/discordfont2.woff2);
+  }
+
+  @font-face{
+    font-family: discordfont1;
+    src: url(/ADO01/public/assets/fonts/discordfont1.woff2);
+  }
+
 body{
-    background-image: url("/public/assets/images/fundo_discord_faixa1.svg");
+
+    background-image: url("/ADO01/public/assets/images/discord-background.svg");
+    background-position-y: 70px;
+    background-position-x: center;
     background-repeat: no-repeat;
     background-color: rgb(64, 78, 237);
     display: flex;
@@ -19,10 +32,9 @@ body{
 
     div{
         a{
-            font: 15px discordfont2;
+            font: 20px discordfont2;
             color: rgb(255, 255, 255);
-            margin: 10px;
-            padding: 10px;
+            padding: 20px;
             position: relative;
             text-decoration: none;
             font-weight: 600;
@@ -33,65 +45,81 @@ body{
         }
     }
     
-        input {
+    input {
         border-radius: 20px;
         border-style: hidden;
         position: relative;
         transition: box-shadow 0.5s;
         }
 
-        .btn-login{
-
-
-        &:hover{
+        .login{
+            &:hover{
 
             color: blue;
             box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432) ;
+            }
         }
-        }
- }
-    
+}
 
 
 .elementos-div{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
     position: relative;
-    top: 200px;
-    gap: 50px;
-
-    .background{
-    background-position: 100px 5px; 
-    position: absolute;
-    top: -182px;
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    }
-}
-
+    top: 260px;
+    
     div{
-        div{
-            h1{
-                font: 60px discordfont1;
-                text-align: center;
-                color: rgb(255, 255, 255);
-            }
-
-            p{
-                font: 20px discordfont2;
-                text-align: center;
-                color: rgb(255, 255, 255);
-            }
+        position: relative;
+        bottom: 60px;
+        left: -10px;
+        h1{
+            font: 60px discordfont1;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            line-height: 55px;
+        }
+        p{
+            font: 20px discordfont2;
+            width: 800px;
+            text-align: center;
+            line-height: 35px;
+            color: rgb(255, 255, 255);
         }
         div{
+            justify-content: space-around;
             input{
-                font: 25px discordfont2;
+                font: 20px discordfont2;
                 background-color: white;
                 border-radius: 25px;
                 border-style: hidden;
-                padding-inline: 15px;
-                
+                padding-inline: 70px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                transition: box-shadow 0.5s;
+
+                &:hover{
+                    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432) ;
+                }
             }
-        }    
+
+            .abrir{
+                background-color: black; 
+                color: white;
+                
+                &:hover{
+                    background-color: rgb(37, 37, 37);
+                }
+            }
+
+            .windows{
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+           
     }
+
+    
+
+}
