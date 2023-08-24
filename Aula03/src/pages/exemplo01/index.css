@@ -1,0 +1,32 @@
+body {
+  padding: 40px;
+  background-color: aquamarine;
+}
+
+.serie {
+  padding: 20px;
+  display: inline-block;
+  border: 2px solid #000;
+  max-width: 800px;
+  width: 100%;
+}
+.serie h2 {
+  font-size: 50px;
+  color: blue;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background-color: red;
+  }
+  .serie h2 {
+    font-size: 20px;
+    color: #fff;
+  }
+}
+@media (max-width: 900px) {
+  body {
+    background-color: pink;
+  }
+}/*# sourceMappingURL=index.css.map */
