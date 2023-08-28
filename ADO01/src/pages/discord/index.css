@@ -6,8 +6,24 @@
   font-family: discordfont1;
   src: url(/ADO01/public/assets/fonts/discordfont1.woff2);
 }
+@font-face {
+  font-family: discordfont3;
+  src: url(/ADO01/public/assets/fonts/discordfont3.woff2);
+}
+@font-face {
+  font-family: discordfont4;
+  src: url(/ADO01/public/assets/fonts/discordfont4.woff2);
+}
+@font-face {
+  font-family: discordfont5;
+  src: url(/ADO01/public/assets/fonts/discordfont5.woff2);
+}
+@font-face {
+  font-family: discordfont6;
+  src: url(/ADO01/public/assets/fonts/discordfont6.woff2);
+}
 body {
-  background-image: url("/ADO01/public/assets/images/discord-background.svg");
+  background-image: url("/public/assets/images/discord-background.svg");
   background-position-y: 70px;
   background-position-x: center;
   background-repeat: no-repeat;
@@ -54,34 +70,35 @@ body {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432);
 }
 
-.elementos-div {
+.elementos-div1 {
   display: flex;
   flex-direction: row;
   position: relative;
   top: 260px;
+  width: 100%;
 }
-.elementos-div div {
+.elementos-div1 div {
   position: relative;
   bottom: 60px;
   left: -10px;
 }
-.elementos-div div h1 {
+.elementos-div1 div h1 {
   font: 60px discordfont1;
   text-align: center;
   color: rgb(255, 255, 255);
   line-height: 55px;
 }
-.elementos-div div p {
+.elementos-div1 div p {
   font: 20px discordfont2;
   width: 800px;
   text-align: center;
   line-height: 35px;
   color: rgb(255, 255, 255);
 }
-.elementos-div div div {
+.elementos-div1 div div {
   justify-content: space-around;
 }
-.elementos-div div div button {
+.elementos-div1 div div button {
   position: relative;
   left: 40px;
   font: 20px discordfont2;
@@ -94,24 +111,52 @@ body {
   transition: box-shadow 0.5s;
   margin: 10px;
 }
-.elementos-div div div button:hover {
+.elementos-div1 div div button:hover {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432);
 }
-.elementos-div div div .abrir {
+.elementos-div1 div div .abrir {
   background-color: black;
   color: white;
 }
-.elementos-div div div .abrir a {
+.elementos-div1 div div .abrir a {
   color: white;
   text-decoration: none;
 }
-.elementos-div div div .abrir:hover {
+.elementos-div1 div div .abrir:hover {
   background-color: rgb(37, 37, 37);
 }
-.elementos-div div div .windows a {
+.elementos-div1 div div .windows a {
   color: black;
   text-decoration: none;
 }
-.elementos-div div div .windows:hover {
+.elementos-div1 div div .windows:hover {
   color: blue;
+}
+
+.faixa2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: -240px;
+  background-color: white;
+  width: 100%;
+  height: 700px;
+}
+.faixa2 div {
+  position: relative;
+  background-color: white;
+  left: 350px;
+  width: 350px;
+}
+.faixa2 h1 {
+  font: 50px discordfont6;
+  text-align: left;
+  color: black;
+  line-height: 55px;
+}
+.faixa2 p {
+  font: 20px discordfont2;
+  text-align: left;
+  line-height: 35px;
+  color: black;
 }/*# sourceMappingURL=index.css.map */

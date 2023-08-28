@@ -7,10 +7,27 @@
     font-family: discordfont1;
     src: url(/ADO01/public/assets/fonts/discordfont1.woff2);
   }
+  @font-face{
+    font-family: discordfont3;
+    src: url(/ADO01/public/assets/fonts/discordfont3.woff2);
+  } 
+  @font-face{
+    font-family: discordfont4;
+    src: url(/ADO01/public/assets/fonts/discordfont4.woff2);
+  }
+  @font-face{
+    font-family: discordfont5;
+    src: url(/ADO01/public/assets/fonts/discordfont5.woff2);
+  }
+  @font-face{
+    font-family: discordfont6;
+    src: url(/ADO01/public/assets/fonts/discordfont6.woff2);
+  }
+
 
 body{
 
-    background-image: url("/ADO01/public/assets/images/discord-background.svg");
+    background-image: url("/public/assets/images/discord-background.svg");
     background-position-y: 70px;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -66,11 +83,12 @@ body{
 }
 
 
-.elementos-div{
+.elementos-div1{
     display: flex;
     flex-direction: row;
     position: relative;
     top: 260px;
+    width: 100%;
     
     div{
         position: relative;
@@ -137,7 +155,32 @@ body{
         }
            
     }
+}
 
-    
-
+.faixa2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -240px;
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    div{
+        position: relative;
+        background-color: white;
+        left: 350px;
+        width: 350px;
+    }
+    h1{
+        font: 50px discordfont6;
+        text-align: left;
+        color: black;
+        line-height: 55px;
+    }
+    p{
+        font: 20px discordfont2;
+        text-align: left;
+        line-height: 35px;
+        color: black;
+    }
 }
