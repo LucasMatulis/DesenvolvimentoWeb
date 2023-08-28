@@ -41,11 +41,13 @@ body {
 .cabecalho-div div a:hover {
   text-decoration: underline;
 }
-.cabecalho-div input {
+.cabecalho-div .login {
+  background-color: white;
   border-radius: 20px;
   border-style: hidden;
   position: relative;
   transition: box-shadow 0.5s;
+  text-decoration: none;
 }
 .cabecalho-div .login:hover {
   color: blue;
@@ -81,7 +83,7 @@ body {
 }
 .elementos-div div div button {
   position: relative;
-  left: 60px;
+  left: 40px;
   font: 20px discordfont2;
   background-color: white;
   border-radius: 50px;
@@ -99,8 +101,16 @@ body {
   background-color: black;
   color: white;
 }
+.elementos-div div div .abrir a {
+  color: white;
+  text-decoration: none;
+}
 .elementos-div div div .abrir:hover {
   background-color: rgb(37, 37, 37);
+}
+.elementos-div div div .windows a {
+  color: black;
+  text-decoration: none;
 }
 .elementos-div div div .windows:hover {
   color: blue;

@@ -50,14 +50,13 @@ body{
         }
     }
     
-    input {
-        border-radius: 20px;
+        .login{
+            background-color: white;
+         border-radius: 20px;
         border-style: hidden;
         position: relative;
         transition: box-shadow 0.5s;
-        }
-
-        .login{
+        text-decoration: none;
             &:hover{
 
             color: blue;
@@ -94,7 +93,7 @@ body{
             justify-content: space-around;
             button{
                 position: relative;
-                left: 60px;
+                left: 40px;
                 font: 20px discordfont2;
                 background-color: white;
                 border-radius: 50px;
@@ -114,12 +113,23 @@ body{
                 background-color: black; 
                 color: white;
                 
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+
                 &:hover{
                     background-color: rgb(37, 37, 37);
                 }
             }
 
             .windows{
+
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+
                 &:hover{
                     color: blue;
                 }
