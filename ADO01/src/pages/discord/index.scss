@@ -184,3 +184,31 @@ body{
         color: black;
     }
 }
+
+.faixa3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: -240px;
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 700px;
+    div{
+        position: relative;
+        background-color: #f6f6f6;
+        right: 350px;
+        width: 350px;
+    }
+    h1{
+        font: 50px discordfont6;
+        text-align: left;
+        color: black;
+        line-height: 55px;
+    }
+    p{
+        font: 20px discordfont2;
+        text-align: left;
+        line-height: 35px;
+        color: black;
+    }
+}
