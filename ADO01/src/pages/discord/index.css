@@ -315,4 +315,35 @@ body {
 }
 .faixa6 a:hover {
   text-decoration: underline;
+}
+
+.faixa7 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: -240px;
+  background-color: #23272a;
+  width: 100%;
+}
+.faixa7 .logo {
+  padding-left: 190px;
+}
+.faixa7 div {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  background-color: #23272a;
+}
+.faixa7 button {
+  font: 20px discordfont2;
+  border-radius: 25px;
+  background-color: rgb(64, 78, 237);
+  color: white;
+  border-style: hidden;
+  position: relative;
+  left: 900px;
+  transition: background-color 0.5s;
+}
+.faixa7 button:hover {
+  background-color: rgb(105, 115, 231);
 }/*# sourceMappingURL=index.css.map */
