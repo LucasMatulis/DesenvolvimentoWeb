@@ -76,6 +76,7 @@ body {
   position: relative;
   top: 260px;
   width: 100%;
+  left: -109px;
 }
 .elementos-div1 div {
   position: relative;
@@ -187,4 +188,131 @@ body {
   text-align: left;
   line-height: 35px;
   color: black;
+}
+
+.faixa4 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: -240px;
+  background-color: white;
+  width: 100%;
+  height: 700px;
+}
+.faixa4 div {
+  position: relative;
+  background-color: white;
+  left: 350px;
+  width: 350px;
+}
+.faixa4 h1 {
+  font: 50px discordfont6;
+  text-align: left;
+  color: black;
+  line-height: 55px;
+}
+.faixa4 p {
+  font: 20px discordfont2;
+  text-align: left;
+  line-height: 35px;
+  color: black;
+}
+
+.faixa5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: -240px;
+  background-color: #f6f6f6;
+  width: 100%;
+  height: 100%;
+}
+.faixa5 div {
+  position: relative;
+  background-color: #f6f6f6;
+  width: 1100px;
+  left: 350px;
+}
+.faixa5 h1 {
+  font: 50px discordfont1;
+  text-align: center;
+  color: black;
+  line-height: 55px;
+}
+.faixa5 p {
+  font: 20px discordfont2;
+  text-align: center;
+  line-height: 35px;
+  color: black;
+}
+.faixa5 h2 {
+  font: 30px discordfont6;
+  text-align: center;
+  color: black;
+  line-height: 55px;
+}
+.faixa5 button {
+  position: relative;
+  left: 780px;
+  font: 20px discordfont2;
+  background-color: rgb(64, 78, 237);
+  border-radius: 50px;
+  border-style: hidden;
+  padding-inline: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: box-shadow 0.5s;
+  transition: background-color 0.5s;
+  margin: 10px;
+}
+.faixa5 button:hover {
+  background-color: rgb(105, 115, 231);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432);
+}
+.faixa5 a {
+  font: 17px discordfont2;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.faixa6 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: -240px;
+  background-color: #23272a;
+  width: 100%;
+  gap: 100px;
+}
+.faixa6 div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 350px;
+  gap: 10px;
+  padding-top: 100px;
+}
+.faixa6 div div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  left: -150px;
+}
+.faixa6 p {
+  font: 17px discordfont2;
+  text-align: left;
+  line-height: 35px;
+  color: white;
+}
+.faixa6 a {
+  font: 17px discordfont2;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.faixa6 a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=index.css.map */
