@@ -319,6 +319,7 @@ body{
         left: 350px;
         gap: 10px;
         padding-top: 100px;
+        padding-bottom: 50px;
         div{
             position: relative;
             display: flex;
@@ -345,10 +346,16 @@ body{
 }
 
 .faixa7{
+    background-color: rgb(64, 78, 237);
+    width: 1231px;
+    height: 241px;
+    margin-left: 300px;
+}
+
+.faixa8{
     display: flex;
     flex-direction: row;
     position: relative;
-    bottom: -240px;
     background-color: #23272a;
     width: 100%;
 
@@ -376,4 +383,16 @@ body{
             background-color: rgb(105, 115, 231);
         }
     }
+    a{
+        text-align: left;
+        font: 15px discordfont2;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.fundo{
+    align-items: center;
+    background-color: #23272a;
+    width: 100%;
 }
