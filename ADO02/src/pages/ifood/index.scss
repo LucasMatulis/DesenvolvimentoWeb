@@ -51,14 +51,14 @@
     align-items: center;
     width: 100%;
     height: 622px;
-    padding: 25px;
     background-position-x: center;
-    background-repeat: no-repeat;
     background-image: url(../../../public/assets/images/Faixa01-Background.svg);
 
     div{
         display: flexbox;
         flex-direction: column;
+        position: relative;
+        width: 300px;
     }
 
     span{
