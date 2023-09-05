@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face {
+    font-family: 'discordfont1';
+    src: url('/public/assets/fonts/discordfont1.woff2');
+}
+
+@font-face {
+    font-family: 'discordfont2';
+    src: url('/public/assets/fonts/discordfont2.woff2');
+}
+
+@font-face {
+    font-family: 'discordfont3';
+    src: url('/public/assets/fonts/discordfont3.woff2');
+}
+
+@font-face {
+    font-family: 'discordfont4';
+    src: url('/public/assets/fonts/discordfont4.woff2');
+}
+
+@font-face {
+    font-family: 'discordfont5';
+    src: url('/public/assets/fonts/discordfont5.woff2');
+}
+
+@font-face {
+    font-family: 'discordfont6';
+    src: url('/public/assets/fonts/discordfont6.woff2');
+}
+
+* {
+    box-sizing: border-box
+}

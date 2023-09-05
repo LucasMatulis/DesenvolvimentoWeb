@@ -1,0 +1,68 @@
+@font-face {
+  font-family: discordfont2;
+  src: url(../../../public/assets/fonts/discordfont2.woff2);
+}
+@font-face {
+  font-family: discordfont1;
+  src: url(../../../public/assets/fonts/discordfont1.woff2);
+}
+@font-face {
+  font-family: discordfont3;
+  src: url(../../../public/assets/fonts/discordfont3.woff2);
+}
+@font-face {
+  font-family: discordfont4;
+  src: url(../../../public/assets/fonts/discordfont4.woff2);
+}
+@font-face {
+  font-family: discordfont5;
+  src: url(../../../public/assets/fonts/discordfont5.woff2);
+}
+@font-face {
+  font-family: discordfont6;
+  src: url(../../../public/assets/fonts/discordfont6.woff2);
+}
+.faixa0 {
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+}
+.faixa0 .logo {
+  position: relative;
+  left: 310px;
+  width: 100px;
+}
+.faixa0 a {
+  font: 0.8669rem discordfont4;
+  position: relative;
+  color: rgba(0, 0, 0, 0.774);
+  float: right;
+  padding-right: 380px;
+  text-decoration: none;
+}
+
+.faixa1 {
+  display: flexbox;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 622px;
+  padding: 25px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-image: url(../../../public/assets/images/Faixa01-Background.svg);
+}
+.faixa1 div {
+  display: flexbox;
+  flex-direction: column;
+}
+.faixa1 span {
+  color: white;
+}
+.faixa1 img {
+  float: right;
+  position: relative;
+  bottom: 263px;
+  height: 626px;
+  width: 960px;
+}/*# sourceMappingURL=index.css.map */
