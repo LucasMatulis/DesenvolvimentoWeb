@@ -42,7 +42,7 @@
 }
 
 .faixa1 {
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
@@ -51,18 +51,20 @@
   background-image: url(../../../public/assets/images/Faixa01-Background.svg);
 }
 .faixa1 div {
-  display: flexbox;
-  flex-direction: column;
-  position: relative;
   width: 300px;
+}
+.faixa1 p {
+  color: white;
+  font: 15px discordfont4;
+}
+.faixa1 h4 {
+  font: 20px discordfont6;
+  color: white;
 }
 .faixa1 span {
   color: white;
 }
 .faixa1 img {
-  float: right;
-  position: relative;
-  bottom: 263px;
   height: 626px;
   width: 960px;
 }/*# sourceMappingURL=index.css.map */
