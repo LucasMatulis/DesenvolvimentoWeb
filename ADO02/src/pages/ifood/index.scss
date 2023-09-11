@@ -83,27 +83,90 @@
       position: absolute;
       border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;;
       box-shadow: rgba(93,93,93,0.15) 4px 0 24px 0;
-      background-color: blue;
+      background-color: white;
       height:209px;
       width: 408px;
 
       span{
+        margin-top: 50px;
         font: 20px discordfont5;
         color: black;
         text-align: center;
       }
 
       a{
-        width: auto;
-        text-align: center;
+        position: relative;
+        left: 60px;
+        height: 3rem;
+        width: 18.0625rem;
+        text-align:center;
         font: 15px discordfont6;
         background-color: black;
         color: white;
         text-decoration: none;
+        line-height: 50px;
 
         &:hover{
+          cursor: pointer;
           background-color: rgb(65, 64, 64);
         }
+      }
+    }
+
+}
+
+.faixa2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 622px;
+
+    div{
+      display: flex;
+      flex-direction: row;
+
+      div{
+        display: flex;
+        flex-direction: column;
+
+        h3{
+          font: 0px discordfont6;
+          font-size: 1.25rem;
+        }
+
+        p{
+            width: 17.1875rem;
+            font: 0px discordfont4;
+            font-size: 0.8669rem;
+        }
+      }
+
+    }
+
+    span{
+      text-align: center;
+      padding-top: 175px;
+      font: 0px discordfont6;
+      font-size: 2.875rem;
+    }
+
+    a{
+      font: 20px discordfont6;
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: center;
+      color: black;
+      border-radius: 25px;
+      background-color: #F5F5F5;
+      text-decoration: none;
+      height: 3rem;
+      width: 15.3125rem;
+      line-height: 50px;
+
+      &:hover{
+        cursor: pointer;
+        background-color:#d1d1d1
       }
     }
 
