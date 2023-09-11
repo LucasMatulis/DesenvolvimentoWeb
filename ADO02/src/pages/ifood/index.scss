@@ -24,6 +24,10 @@
     src: url(../../../public/assets/fonts/discordfont6.woff2);
   }
 
+body{
+  overflow-x: hidden;
+}
+
 .faixa0{
     align-items: center;
     width: 100%;
@@ -170,4 +174,14 @@
       }
     }
 
+}
+
+.faixa3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 481px;
+    background-position-x: center;
+    background-image: url(../../../public/assets/images/Faixa03-Background.png);
 }
