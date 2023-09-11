@@ -42,6 +42,10 @@
         float: right;
         padding-right: 380px;
         text-decoration: none;
+
+        &:hover{
+          text-decoration: underline;
+        }
     }
 }
 
@@ -53,10 +57,6 @@
     height: 622px;
     background-position-x: center;
     background-image: url(../../../public/assets/images/Faixa01-Background.svg);
-
-    div{
-        width: 300px;
-    }
 
     p{
       color: white;
@@ -75,6 +75,36 @@
     img{
         height: 626px;
         width: 960px;
+    }
+
+    .botoes{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;;
+      box-shadow: rgba(93,93,93,0.15) 4px 0 24px 0;
+      background-color: blue;
+      height:209px;
+      width: 408px;
+
+      span{
+        font: 20px discordfont5;
+        color: black;
+        text-align: center;
+      }
+
+      a{
+        width: auto;
+        text-align: center;
+        font: 15px discordfont6;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+
+        &:hover{
+          background-color: rgb(65, 64, 64);
+        }
+      }
     }
 
 }

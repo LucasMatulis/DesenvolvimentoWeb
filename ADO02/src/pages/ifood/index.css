@@ -40,6 +40,9 @@
   padding-right: 380px;
   text-decoration: none;
 }
+.faixa0 a:hover {
+  text-decoration: underline;
+}
 
 .faixa1 {
   display: flex;
@@ -49,9 +52,6 @@
   height: 622px;
   background-position-x: center;
   background-image: url(../../../public/assets/images/Faixa01-Background.svg);
-}
-.faixa1 div {
-  width: 300px;
 }
 .faixa1 p {
   color: white;
@@ -67,4 +67,30 @@
 .faixa1 img {
   height: 626px;
   width: 960px;
+}
+.faixa1 .botoes {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+  background-color: blue;
+  height: 209px;
+  width: 408px;
+}
+.faixa1 .botoes span {
+  font: 20px discordfont5;
+  color: black;
+  text-align: center;
+}
+.faixa1 .botoes a {
+  width: auto;
+  text-align: center;
+  font: 15px discordfont6;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.faixa1 .botoes a:hover {
+  background-color: rgb(65, 64, 64);
 }/*# sourceMappingURL=index.css.map */
