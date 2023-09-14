@@ -267,6 +267,10 @@ body {
 }
 
 @media (max-width: 820px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
   .faixa0 .logo {
     left: 10px;
     width: 67px;
@@ -330,6 +334,9 @@ body {
     height: 32px;
     line-height: 30px;
   }
+  .faixa2 {
+    overflow-x: hidden;
+  }
   .faixa2 span {
     font-size: 2rem;
     position: relative;
@@ -350,5 +357,17 @@ body {
   }
   .faixa3 div {
     left: -5px;
+  }
+}
+@media (max-width: 414px) {
+  .faixa0 {
+    height: 94px;
+  }
+  .faixa0 .logo {
+    width: 126px;
+    height: 39.5px;
+  }
+  .faixa0 a {
+    visibility: hidden;
   }
 }/*# sourceMappingURL=index.css.map */
