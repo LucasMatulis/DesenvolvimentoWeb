@@ -22,7 +22,7 @@
   font-family: discordfont6;
   src: url(../../../public/assets/fonts/discordfont6.woff2);
 }
-body {
+html, body {
   overflow-x: hidden;
 }
 
@@ -30,6 +30,8 @@ body {
   align-items: center;
   width: 100%;
   padding: 25px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .faixa0 .logo {
   position: relative;
@@ -49,6 +51,8 @@ body {
 }
 
 .faixa1 {
+  overflow-y: hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -68,6 +72,19 @@ body {
   top: 10px;
   position: relative;
 }
+.faixa1 .bloco1 .presenteie .estrelinha {
+  width: 15px;
+  height: 15px;
+  left: 415px;
+  top: -55px;
+  position: relative;
+}
+.faixa1 .bloco1 .presenteie .estrela {
+  width: 30px;
+  height: 30px;
+  left: 415px;
+  position: relative;
+}
 .faixa1 .bloco1 .seu {
   font: 30px discordfont6;
   bottom: 34px;
@@ -80,6 +97,10 @@ body {
   font: 35px discordfont6;
   display: flex;
   gap: 30px;
+}
+.faixa1 .bloco1 .card .estrelaMedia {
+  width: 25px;
+  height: 25px;
 }
 .faixa1 .bloco2 {
   position: relative;
@@ -180,6 +201,8 @@ body {
   align-items: center;
   width: 100%;
   height: 622px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .faixa2 div {
   display: flex;
@@ -223,6 +246,8 @@ body {
 }
 
 .faixa3 {
+  overflow-y: hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -357,6 +382,7 @@ body {
 }
 @media (max-width: 414px) {
   .faixa0 {
+    overflow-x: hidden;
     height: 94px;
   }
   .faixa0 .logo {
@@ -367,26 +393,61 @@ body {
     visibility: hidden;
   }
   .faixa1 {
+    overflow-y: hidden;
     flex-direction: column;
     height: 1142px;
     width: 1000px;
   }
   .faixa1 .bloco1 {
     visibility: inherit;
+    left: -300px;
+    top: 50px;
+  }
+  .faixa1 .bloco1 .presenteie {
+    font-size: 3rem;
+  }
+  .faixa1 .bloco1 .presenteie .estrelinha {
+    height: 10px;
+    width: 10px;
+    left: 270px;
+    top: -60px;
+  }
+  .faixa1 .bloco1 .presenteie .estrela {
+    height: 10px;
+    width: 10px;
+    left: 270px;
+    top: -40px;
+  }
+  .faixa1 .bloco1 .seu {
+    font-size: 2rem;
+    bottom: 22px;
+  }
+  .faixa1 .bloco1 .time {
+    font-size: 3rem;
+  }
+  .faixa1 .bloco1 .card {
+    font-size: 2rem;
+  }
+  .faixa1 .bloco1 .card .estrelaMedia {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 17px;
+    width: 17px;
   }
   .faixa1 .bloco2 {
-    left: 120px;
+    left: 50px;
     top: 350px;
   }
   .faixa1 img {
-    top: 180px;
-    left: -230px;
+    top: 250px;
+    left: -290px;
     width: 399px;
     height: 264px;
   }
   .faixa1 .botao1 {
     top: 770px;
-    left: 60px;
+    left: 3px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -421,7 +482,7 @@ body {
   }
   .faixa1 .botao2 {
     top: 1015px;
-    left: 60px;
+    left: 3px;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -453,5 +514,59 @@ body {
   .faixa1 .botao2 a:hover {
     cursor: pointer;
     background-color: rgb(65, 64, 64);
+  }
+  .faixa2 {
+    height: 1150px;
+    overflow-y: hidden;
+  }
+  .faixa2 span {
+    padding-top: 30px;
+    left: 0px;
+    width: 300px;
+    height: 92px;
+  }
+  .faixa2 div {
+    flex-direction: column;
+    top: -32px;
+  }
+  .faixa2 div div {
+    left: 55px;
+  }
+  .faixa2 div img {
+    width: 125.375px;
+    height: 135.609px;
+  }
+  .faixa2 div .sacola {
+    position: relative;
+    top: 150px;
+    left: -75px;
+  }
+  .faixa2 div .milkshake {
+    position: relative;
+    top: 150px;
+    left: -75px;
+  }
+  .faixa2 div .licores {
+    position: relative;
+    top: 150px;
+    left: -75px;
+  }
+  .faixa2 a {
+    left: -10px;
+  }
+  .faixa3 {
+    overflow-y: hidden;
+    height: 693px;
+  }
+  .faixa3 h3 {
+    text-align: center;
+    width: 305px;
+    height: 64px;
+    font-size: 1.4241rem;
+    left: 50px;
+    padding-top: 15px;
+  }
+  .faixa3 div {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=index.css.map */
