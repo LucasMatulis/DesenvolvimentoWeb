@@ -1,0 +1,572 @@
+@font-face {
+  font-family: discordfont2;
+  src: url(../../../public/assets/fonts/discordfont2.woff2);
+}
+@font-face {
+  font-family: discordfont1;
+  src: url(../../../public/assets/fonts/discordfont1.woff2);
+}
+@font-face {
+  font-family: discordfont3;
+  src: url(../../../public/assets/fonts/discordfont3.woff2);
+}
+@font-face {
+  font-family: discordfont4;
+  src: url(../../../public/assets/fonts/discordfont4.woff2);
+}
+@font-face {
+  font-family: discordfont5;
+  src: url(../../../public/assets/fonts/discordfont5.woff2);
+}
+@font-face {
+  font-family: discordfont6;
+  src: url(../../../public/assets/fonts/discordfont6.woff2);
+}
+html, body {
+  overflow-x: hidden;
+}
+
+.faixa0 {
+  align-items: center;
+  width: 100%;
+  padding: 25px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.faixa0 .logo {
+  position: relative;
+  left: 310px;
+  width: 100px;
+}
+.faixa0 a {
+  font: 0.8669rem discordfont4;
+  position: relative;
+  color: rgba(0, 0, 0, 0.774);
+  float: right;
+  padding-right: 380px;
+  text-decoration: none;
+}
+.faixa0 a:hover {
+  text-decoration: underline;
+}
+
+.faixa1 {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 622px;
+  background-position-x: center;
+  background-image: url(../../../public/assets/images/Faixa01-Background.svg);
+}
+.faixa1 .bloco1 {
+  position: relative;
+  left: 279px;
+  top: -30px;
+}
+.faixa1 .bloco1 .presenteie {
+  font: 75px discordfont6;
+  left: -50px;
+  top: 10px;
+  position: relative;
+}
+.faixa1 .bloco1 .presenteie .estrelinha {
+  width: 15px;
+  height: 15px;
+  left: 415px;
+  top: -55px;
+  position: relative;
+}
+.faixa1 .bloco1 .presenteie .estrela {
+  width: 30px;
+  height: 30px;
+  left: 415px;
+  position: relative;
+}
+.faixa1 .bloco1 .seu {
+  font: 30px discordfont6;
+  bottom: 34px;
+  position: relative;
+}
+.faixa1 .bloco1 .time {
+  font: 70px discordfont6;
+}
+.faixa1 .bloco1 .card {
+  font: 35px discordfont6;
+  display: flex;
+  gap: 30px;
+}
+.faixa1 .bloco1 .card .estrelaMedia {
+  width: 25px;
+  height: 25px;
+}
+.faixa1 .bloco2 {
+  position: relative;
+  left: 370px;
+  width: 300px;
+}
+.faixa1 p {
+  color: white;
+  font: 15px discordfont4;
+}
+.faixa1 h4 {
+  font: 20px discordfont6;
+  color: white;
+}
+.faixa1 span {
+  color: white;
+}
+.faixa1 img {
+  height: 626px;
+  width: 960px;
+  position: relative;
+  left: 320px;
+}
+.faixa1 .botao1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 490px;
+  top: 600px;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+  background-color: white;
+  height: 209px;
+  width: 408px;
+}
+.faixa1 .botao1 span {
+  margin-top: 50px;
+  font: 20px discordfont5;
+  color: black;
+  text-align: center;
+}
+.faixa1 .botao1 a {
+  top: 70px;
+  position: relative;
+  left: 60px;
+  height: 3rem;
+  width: 18.0625rem;
+  text-align: center;
+  font: 15px discordfont6;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+}
+.faixa1 .botao1 a:hover {
+  cursor: pointer;
+  background-color: rgb(65, 64, 64);
+}
+.faixa1 .botao2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 920px;
+  top: 600px;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+  background-color: white;
+  height: 209px;
+  width: 408px;
+}
+.faixa1 .botao2 span {
+  margin-top: 50px;
+  font: 20px discordfont5;
+  color: black;
+  text-align: center;
+}
+.faixa1 .botao2 a {
+  top: 45px;
+  position: relative;
+  left: 60px;
+  height: 3rem;
+  width: 18.0625rem;
+  text-align: center;
+  font: 15px discordfont6;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+}
+.faixa1 .botao2 a:hover {
+  cursor: pointer;
+  background-color: rgb(65, 64, 64);
+}
+
+.faixa2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 622px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.faixa2 div {
+  display: flex;
+  flex-direction: row;
+}
+.faixa2 div div {
+  display: flex;
+  flex-direction: column;
+}
+.faixa2 div div h3 {
+  font: 0px discordfont6;
+  font-size: 1.25rem;
+}
+.faixa2 div div p {
+  width: 17.1875rem;
+  font: 0px discordfont4;
+  font-size: 0.8669rem;
+}
+.faixa2 span {
+  text-align: center;
+  padding-top: 175px;
+  font: 0px discordfont6;
+  font-size: 2.875rem;
+}
+.faixa2 a {
+  font: 20px discordfont6;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  border-radius: 25px;
+  background-color: #F5F5F5;
+  text-decoration: none;
+  height: 3rem;
+  width: 15.3125rem;
+  line-height: 50px;
+}
+.faixa2 a:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
+.faixa3 {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 481px;
+  background-position-x: center;
+  background-image: url(../../../public/assets/images/Faixa03-Background.png);
+}
+.faixa3 h3 {
+  padding-top: 50px;
+  position: relative;
+  left: 300px;
+  text-align: left;
+  font: 0px discordfont6;
+  font-size: 2.1672rem;
+  color: white;
+}
+.faixa3 div {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 150px;
+}
+.faixa3 div div {
+  display: flex;
+  flex-direction: column;
+  width: 20.4375rem;
+  gap: 10px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.faixa3 div div strong {
+  display: flex;
+  color: white;
+  font: 10px discordfont5;
+  font-size: 0.9907rem;
+  gap: 10px;
+}
+.faixa3 div div span {
+  color: white;
+  font: 10px discordfont2;
+  font-size: 0.8669rem;
+}
+
+@media (max-width: 820px) {
+  .faixa0 .logo {
+    left: 10px;
+    width: 67px;
+    height: 21px;
+  }
+  .faixa0 a {
+    font-size: 0.6669rem;
+    position: relative;
+    left: 120px;
+  }
+  .faixa1 {
+    height: 429px;
+  }
+  .faixa1 .bloco1 {
+    visibility: hidden;
+  }
+  .faixa1 .bloco2 {
+    position: absolute;
+    height: 429px;
+    left: 5px;
+    top: 160px;
+  }
+  .faixa1 .bloco2 h4 {
+    font-size: 1rem;
+  }
+  .faixa1 img {
+    height: 429px;
+    left: -170px;
+  }
+  .faixa1 .botao1 {
+    width: 250px;
+    height: 142px;
+    top: 450px;
+    left: 10px;
+  }
+  .faixa1 .botao1 a {
+    top: 30px;
+    left: 30px;
+    width: 196px;
+    height: 32px;
+    line-height: 15px;
+  }
+  .faixa1 .botao1 span {
+    margin-top: 25px;
+    font-size: 1rem;
+  }
+  .faixa1 .botao2 {
+    width: 250px;
+    height: 142px;
+    top: 450px;
+    left: 300px;
+  }
+  .faixa1 .botao2 span {
+    margin-top: 25px;
+    font-size: 1rem;
+  }
+  .faixa1 .botao2 a {
+    top: 10px;
+    left: 30px;
+    width: 196px;
+    height: 32px;
+    line-height: 30px;
+  }
+  .faixa2 {
+    overflow-x: hidden;
+  }
+  .faixa2 span {
+    font-size: 2rem;
+    position: relative;
+    left: -80px;
+  }
+  .faixa2 div {
+    position: relative;
+    left: 10px;
+  }
+  .faixa2 a {
+    position: relative;
+    left: -80px;
+    top: 60px;
+  }
+  .faixa3 h3 {
+    font-size: 2rem;
+    left: 10px;
+  }
+  .faixa3 div {
+    left: -5px;
+  }
+}
+@media (max-width: 414px) {
+  .faixa0 {
+    overflow-x: hidden;
+    height: 94px;
+  }
+  .faixa0 .logo {
+    width: 126px;
+    height: 39.5px;
+  }
+  .faixa0 a {
+    visibility: hidden;
+  }
+  .faixa1 {
+    overflow-y: hidden;
+    flex-direction: column;
+    height: 1142px;
+    width: 1000px;
+  }
+  .faixa1 .bloco1 {
+    visibility: inherit;
+    left: -300px;
+    top: 50px;
+  }
+  .faixa1 .bloco1 .presenteie {
+    font-size: 3rem;
+  }
+  .faixa1 .bloco1 .presenteie .estrelinha {
+    height: 10px;
+    width: 10px;
+    left: 270px;
+    top: -60px;
+  }
+  .faixa1 .bloco1 .presenteie .estrela {
+    height: 10px;
+    width: 10px;
+    left: 270px;
+    top: -40px;
+  }
+  .faixa1 .bloco1 .seu {
+    font-size: 2rem;
+    bottom: 22px;
+  }
+  .faixa1 .bloco1 .time {
+    font-size: 3rem;
+  }
+  .faixa1 .bloco1 .card {
+    font-size: 2rem;
+  }
+  .faixa1 .bloco1 .card .estrelaMedia {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 17px;
+    width: 17px;
+  }
+  .faixa1 .bloco2 {
+    left: 50px;
+    top: 350px;
+  }
+  .faixa1 img {
+    top: 250px;
+    left: -290px;
+    width: 399px;
+    height: 264px;
+  }
+  .faixa1 .botao1 {
+    top: 770px;
+    left: 3px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+    background-color: white;
+    height: 209px;
+    width: 408px;
+  }
+  .faixa1 .botao1 span {
+    margin-top: 50px;
+    font: 20px discordfont5;
+    color: black;
+    text-align: center;
+  }
+  .faixa1 .botao1 a {
+    top: 70px;
+    position: relative;
+    left: 60px;
+    height: 3rem;
+    width: 18.0625rem;
+    text-align: center;
+    font: 15px discordfont6;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  .faixa1 .botao1 a:hover {
+    cursor: pointer;
+    background-color: rgb(65, 64, 64);
+  }
+  .faixa1 .botao2 {
+    top: 1015px;
+    left: 3px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    box-shadow: rgba(93, 93, 93, 0.15) 4px 0 24px 0;
+    background-color: white;
+    height: 209px;
+    width: 408px;
+  }
+  .faixa1 .botao2 span {
+    margin-top: 50px;
+    font: 20px discordfont5;
+    color: black;
+    text-align: center;
+  }
+  .faixa1 .botao2 a {
+    top: 40px;
+    position: relative;
+    left: 60px;
+    height: 3rem;
+    width: 18.0625rem;
+    text-align: center;
+    font: 15px discordfont6;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  .faixa1 .botao2 a:hover {
+    cursor: pointer;
+    background-color: rgb(65, 64, 64);
+  }
+  .faixa2 {
+    height: 1150px;
+    overflow-y: hidden;
+  }
+  .faixa2 span {
+    padding-top: 30px;
+    left: 0px;
+    width: 300px;
+    height: 92px;
+  }
+  .faixa2 div {
+    flex-direction: column;
+    top: -32px;
+  }
+  .faixa2 div div {
+    left: 55px;
+  }
+  .faixa2 div img {
+    width: 125.375px;
+    height: 135.609px;
+  }
+  .faixa2 div .sacola {
+    position: relative;
+    top: 150px;
+    left: -75px;
+  }
+  .faixa2 div .milkshake {
+    position: relative;
+    top: 150px;
+    left: -75px;
+  }
+  .faixa2 div .licores {
+    position: relative;
+    top: 150px;
+    left: -75px;
+  }
+  .faixa2 a {
+    left: -10px;
+  }
+  .faixa3 {
+    overflow-y: hidden;
+    height: 693px;
+  }
+  .faixa3 h3 {
+    text-align: center;
+    width: 305px;
+    height: 64px;
+    font-size: 1.4241rem;
+    left: 50px;
+    padding-top: 15px;
+  }
+  .faixa3 div {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=index.css.map */
