@@ -1,0 +1,21 @@
+.pagina-variavel-estado {
+    padding: 30px;
+
+    font-size: 24px;
+    
+    button,input {
+        font-size: 22px;
+        padding: 10px 15px;
+    }
+
+    .calc {
+        > div {
+            margin: 5px;
+        }
+        label {
+            display: inline-block;
+            text-align: right;
+            margin-right: 10px;
+        }
+    }
+}

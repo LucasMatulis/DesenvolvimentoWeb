@@ -1,0 +1,25 @@
+
+
+.pagina-filmes-cadastro {
+
+    font-size: 2em;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        label {
+            display: inline-block;
+            width: 200px;
+            text-align: right;
+            margin-right: 20px;
+        }
+    }
+
+    input, button {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+}

@@ -1,0 +1,32 @@
+
+
+.pagina-filmes-cadastro {
+    padding: 20px;
+    font-size: 2em;
+
+    > h1 {
+        margin-bottom: 30px;
+    }
+
+    table {
+        width: 100%;
+    }
+    th,td {
+        text-align: left;
+    }
+    table button {
+        font-size: 1rem;
+    }
+
+    input, button {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    .lista-filmes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}

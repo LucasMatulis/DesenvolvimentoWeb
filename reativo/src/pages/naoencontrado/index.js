@@ -1,3 +1,5 @@
+
+
 export default function NaoEncontrado() {
 
   return (
@@ -6,3 +8,4 @@ export default function NaoEncontrado() {
     </div>
   )
 }
+

@@ -1,4 +1,4 @@
-import './Sobre.scss';
+import './index.scss';
 import { Link } from 'react-router-dom';
 
 
@@ -15,3 +15,4 @@ export default function Sobre() {
   )
   
 }
+
